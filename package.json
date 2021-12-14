@@ -1,0 +1,19 @@
+{
+  "name": "nt-kisan-node-api",
+  "version": "1.0.0",
+  "description": "Node API for NT Kisan Node Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paras Jain",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^9.7.0",
+    "minio": "^7.0.19",
+    "mongoose": "^5.12.12",
+    "multer": "^1.4.3",
+    "request": "^2.88.2"
+  }
+}
