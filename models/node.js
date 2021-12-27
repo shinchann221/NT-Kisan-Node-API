@@ -16,7 +16,9 @@ var personSchema = new Schema({
     "shop_name": String,
     "address": String,
     "bucket_link": String,
-    "createdAt": String
+    "createdAt": String,
+    "accNo": String,
+    "IFSC": String
 });
 
 var nodeModel = mongoose.model('Nodes', personSchema);

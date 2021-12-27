@@ -3,7 +3,7 @@ const authApp = require('./init/firebaseinit');
 const db = require('./init/initDB');
 const minioClient = require('./init/minio');
 //Routers
-const clientRouter = require('./routes/clientRouter');
+const api = require('./routes/router');
 
 //Express Server Config
 const app = express();
@@ -11,7 +11,7 @@ app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true }));
 
 //Routes
-app.use('/client', clientRouter);
+app.use('/', api);
 
 var PORT = process.env.PORT || 5050;
 var server = app.listen(PORT, () => {
