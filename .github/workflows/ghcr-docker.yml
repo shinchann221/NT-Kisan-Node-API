@@ -4,7 +4,7 @@ on:
     types: [created]
 
 env:
-  IMAGE: nt-kisan-nodes-api
+  IMAGE: nt-kisan-node-api
   CR_PAT: ${{ secrets.CR_PAT }}
 
 
