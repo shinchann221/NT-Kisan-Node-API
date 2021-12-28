@@ -7,6 +7,7 @@ const entrySchema = new Schema({
   "name": String,
   "phone": Number,
   "status": String,
+  "date": String
 });
 
 var entryModel = mongoose.model("User Entry", entrySchema);
