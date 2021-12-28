@@ -2,7 +2,7 @@ const express = require('express');
 var router = express.Router();
 const nodeModel = require('../models/node');
 var Multer = require("multer");
-const minioClient = require('../../init/minio');
+const minioClient = require('../init/minio');
 
 //Create a User
 //This method saves a user in Mongo with proper parameters req.
