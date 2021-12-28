@@ -12,10 +12,8 @@ var personSchema = new Schema({
     "lon": Number,
     "aadhar": String,
     "pan": String,
-    "gst": String,
     "shop_name": String,
     "address": String,
-    "bucket_link": String,
     "createdAt": String,
     "accNo": String,
     "IFSC": String
