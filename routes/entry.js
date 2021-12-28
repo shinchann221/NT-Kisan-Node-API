@@ -9,7 +9,7 @@ router.post(
     var data = req.body;
     var entry = new entryModel(data);
     try {
-      trade.save();
+      entry.save();
       res.status(200).send(entry);
     } catch (e) {
       res.status(400).send(e);
